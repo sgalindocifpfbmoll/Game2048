@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/matrixLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/matrixBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <GridLayout
+        android:id="@+id/matrixLayout"
+        android:layout_width="312dp"
+        android:layout_height="312dp"
+        android:background="@color/matrixBackground"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:useDefaultMargins="true"
+        tools:ignore="MissingDefaultResource">
+
+        <TextView
+            android:id="@+id/tileView0"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="20sp" />
+
+        <TextView
+            android:id="@+id/tileView1"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView2"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView3"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView4"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView5"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView6"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView7"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView8"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView9"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView10"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView11"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView12"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView13"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView14"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tileView15"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Tile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:background="@color/tileEmpty"
+            android:gravity="center"
+            android:text="@string/tile_value_example"
+            android:textColor="@color/textColor0"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+</LinearLayout>

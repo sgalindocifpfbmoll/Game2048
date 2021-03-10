@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppButton0" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/textColor0</item>
+        <item name="android:background">@color/tile2</item>
+    </style>
+
+    <style name="AppButton1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/textColor1</item>
+        <item name="android:background">@color/tile8</item>
+    </style>
+
+    <style name="Logo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/textColor1</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:text">@string/main_activity_logo</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ScoreBoxText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/textColor1</item>
+        <item name="android:background">@color/matrixBackground</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ScoreBox" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/matrixBackground</item>
+        <item name="android:background">@color/textColor1</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/textColor0</item>
+        <item name="android:background">@color/tile2</item>
+        <item name="android:buttonStyle">@style/AppButton0</item>
+    </style>
+
+</resources>

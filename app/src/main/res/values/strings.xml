@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Game2048</string>
+
+    <string name="tile_value_example">3</string>
+
+    <string name="main_activity_play_button">Play</string>
+    <string name="main_activity_score_button">Score</string>
+    <string name="main_activity_logo">2048.</string>
+    <string name="main_activity_confirm_message">Start a new game?</string>
+
+    <string name="game_activity_box_0">SCORE</string>
+    <string name="game_activity_box_1">BEST</string>
+    <string name="game_activity_button_menu">MENU</string>
+    <string name="game_activity_button_undo">UNDO</string>
+    <string name="game_activity_button_redo">REDO</string>
+
+    <string name="scorelist_item_button_edit">EDIT</string>
+    <string name="scorelist_item_button_delete">DELETE</string>
+
+    <string name="search_activity_search">SEARCH</string>
+
+    <string name="score_edit_activity_button_submit">SUBMIT</string>
+    <string name="score_edit_activity_button_cancel">CANCEL</string>
+</resources>

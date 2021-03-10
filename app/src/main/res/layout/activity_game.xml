@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackround"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/gameActivityScoreBox1"
+        style="@style/ScoreBoxText"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginRight="149dp"
+        android:text="@string/game_activity_box_1" />
+
+    <TextView
+        android:id="@+id/gameActivityMainLogo"
+        style="@style/Logo"
+        android:layout_width="127dp"
+        android:layout_height="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginRight="240dp" />
+
+    <Button
+        android:id="@+id/gameActivityButtonMenu"
+        style="@style/AppButton1"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="239dp"
+        android:layout_marginRight="239dp"
+        android:text="@string/game_activity_button_menu" />
+
+    <TextView
+        android:id="@+id/gameActivityScoreBox0"
+        style="@style/ScoreBoxText"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:text="@string/game_activity_box_0" />
+
+    <TextView
+        android:id="@+id/gameActivityActualScore"
+        style="@style/ScoreBox"
+        android:layout_width="92dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:text="@string/game_activity_box_0" />
+
+    <Button
+        android:id="@+id/gameActivityButtonUndo"
+        style="@style/AppButton1"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:background="@color/buttonOff"
+        android:text="@string/game_activity_button_undo" />
+
+    <TextView
+        android:id="@+id/gameActivityBestScore"
+        style="@style/ScoreBox"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginRight="149dp"
+        android:text="@string/game_activity_box_0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="232dp"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/matrixFragment"
+            android:name="com.fbmoll.sgalindo.game2048.engine.Matrix"
+            android:layout_width="323dp"
+            android:layout_height="match_parent"
+            tools:layout="@layout/matrix"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gameActivityScoreView"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:text="+2"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
